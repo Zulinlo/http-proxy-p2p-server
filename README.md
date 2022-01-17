@@ -1,1 +1,16 @@
 # http-proxy-p2p-server
+A proxy server that allows multi-threaded connections from clients, as well as direct P2P connections.
+
+Proxy server commands:
+- broadcast [message]
+- whoelse
+- whoelsesince [time seconds]
+- message [username] [message]
+- block [username]
+- unblock [username]
+- logout
+
+P2P commands:
+- startprivate [username]
+- private [username] [message]
+- stopprivate [username]
