@@ -14,3 +14,12 @@ P2P commands:
 - startprivate [username]
 - private [username] [message]
 - stopprivate [username]
+
+### Executing program
+
+```bash
+javac Server.java
+java Server SERVER_PORT BLOCK_DURATION TIME_OUT
+javac Client.java
+java Client SERVER_IP SERVER_PORT
+```
